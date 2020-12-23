@@ -1,0 +1,65 @@
+.reviews {
+    padding: 51px 0 65px 0;
+    min-height: 438px;
+    &__carousel {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        padding-top: 31px;
+        min-height: 240px;
+        width: 600px;
+        border: none;
+        overflow: hidden;
+        outline: none !important;
+    }
+    &_item {
+        outline: none !important;
+    }
+    .slick-prev,
+    .slick-next {
+        position: absolute;
+        top: 30%;
+        transform: translateY(-50%);
+        border: none;
+        z-index: 10;
+        border: none;
+        background: #fff;
+    }
+    .slick-next {
+        right: 180px;
+        left: auto;
+        outline: none !important;
+        background: none;
+    }
+    .slick-prev {
+        left: 180px;
+        outline: none !important;
+        background: none;
+    }
+    &_item {
+        display: block;
+        margin: 0 auto;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__name {
+        margin-top: 20px;
+        color: #3a3a3a;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22.01px;
+        text-align: center;
+        font-weight: 700;
+    }
+    &__text {
+        margin-top: 20px;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22.01px;
+        text-align: center;
+        font-weight: 300;
+    }
+}

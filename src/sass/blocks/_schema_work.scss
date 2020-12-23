@@ -1,0 +1,23 @@
+.schema_work {
+    min-height: 454px;
+    background-color: #f3f3f3;
+    padding: 51px 0 45px 0;
+    &__title {
+        text-align: center;
+    }
+    &__text {
+        margin-top: 12px;
+        font-weight: 300;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: center;
+    }
+    &__icon {
+        img {
+            margin: 0 auto;
+            display: block;
+        }
+    }
+}

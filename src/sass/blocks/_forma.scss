@@ -1,0 +1,66 @@
+.questions {
+    background: url('../img/bg/planeForm.jpg') center (center / cover) no-repeat;
+    padding: 62px 0 79px 0;
+    min-height: 438px;
+    &-form {
+        padding: 18px 42px 25px 41px;
+        margin: 0 auto;
+        width: 896px;
+        height: 297px;
+        background: rgba($color: #ffff, $alpha: 0.7);
+        &__title {
+            margin: 0 auto;
+            padding-top: 5px;
+            width: 896px;
+            height: 68px;
+            background-color: #25333c;
+            color: #ffffff;
+            font-size: 19px;
+            font-weight: 700;
+            text-align: center;
+            line-height: 41px;
+            text-transform: uppercase;
+            span {
+                display: block;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 0;
+            }
+        }
+        input {
+            padding-left: 27px;
+            margin-top: 18px;
+            border: 1px solid rgba(0, 0, 0, 0.21);
+            width: 268px;
+            min-height: 45px;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: left;
+            border-radius: 25px;
+            color: rgba($color: #ffff, $alpha: 0.7);
+            outline: none;
+        }
+        textarea {
+            padding-left: 25px;
+            margin-top: 8px;
+            resize: none;
+            color: #616467;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 51px;
+            text-align: left;
+            width: 813px;
+            height: 71px;
+            border: 1px solid rgba(0, 0, 0, 0.21);
+            background-color: rgba($color: #ffff, $alpha: 0.7);
+            border-radius: 7px;
+            outline: none;
+        }
+        &-btn {
+            width: 180px;
+            display: block;
+            margin: 17px auto 0 auto;
+        }
+    }
+}

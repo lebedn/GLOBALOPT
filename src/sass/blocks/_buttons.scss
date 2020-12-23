@@ -3,7 +3,6 @@
     height: 45px;
     background-color: $main-color;
     color: #ffffff;
-    color: #ffffff;
     font-size: 12px;
     font-weight: 400;
     line-height: 22.04px;
@@ -11,4 +10,15 @@
     text-transform: uppercase;
     border-radius: 25px;
     border: 0;
+    outline: none !important;
+    transition: .6s;
+    &:hover {
+        border: #ffffff;
+    }
+    &:active {
+        top: .1em;
+        left: .1em;
+        box-shadow: 0 0 0 60px rgba(0, 0, 0, .05) inset;
+        background-image: linear-gradient(#c61e40, #d4536d);
+    }
 }
