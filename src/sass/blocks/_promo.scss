@@ -14,7 +14,7 @@
                     line-height: 16.71px;
                     text-align: left;
                     color: #ffffff;
-                    font-size: 13px;
+                    font-size: 14px;
                     font-weight: 400;
                     &:hover {
                         text-decoration: none;
@@ -23,12 +23,18 @@
                 }
                 &_item {
                     border-right: 1px dotted rgba($color: #ffff, $alpha: .4);
-                    padding-right: 14px;
+                    padding-right: 10px;
                     height: 23px;
                     &:last-child {
                         border-right: none;
                     }
                 }
+            }
+            .hamburger {
+                display: none;
+            }
+            &_btn {
+                margin: 21px 0 0 19px;
             }
         }
         &__contacts {
@@ -46,9 +52,9 @@
                 line-height: 24px;
                 text-align: right;
             }
-        }
-        &__contacts_btn {
-            margin: 21px 0 0 19px;
+            button {
+                display: none;
+            }
         }
         h3 {
             margin-top: 9px;
